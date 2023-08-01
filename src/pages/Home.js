@@ -31,13 +31,13 @@ export default function Home() {
 
       setTimeout(()=>{
         const highlight1 = document.querySelector(".highlight1");
-        const h_annotation1 = annotate(highlight1, {type: 'highlight', color: "lightblue"});
+        const h_annotation1 = annotate(highlight1, {type: 'highlight', color: "pink"});
         h_annotation1.show();
       }, 4000)
 
       setTimeout(()=>{
         const highlight2 = document.querySelector(".highlight2");
-        const h_annotation2 = annotate(highlight2, {type: 'highlight', color: "lightblue"});
+        const h_annotation2 = annotate(highlight2, {type: 'highlight', color: "pink"});
         h_annotation2.show();
       }, 5000)
 
@@ -49,7 +49,7 @@ export default function Home() {
 
       setTimeout(()=>{
         const highlight = document.querySelector(".circle");
-        const h_annotation = annotate(highlight, {type:"highlight", color:"lightblue"});
+        const h_annotation = annotate(highlight, {type:"highlight", color:"pink"});
         h_annotation.show();
       }, 8000)
     }

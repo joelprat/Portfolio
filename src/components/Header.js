@@ -1,29 +1,22 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 
 import { annotate } from 'rough-notation'
 
 import "./Header.css"
 
-import menu from "../assets/menu.png";
-
 export default function Header() {
-
-  const [active, setActive] = useState(false);
   
   useEffect(()=>{
     setTimeout(()=>{      
       const links = document.getElementsByClassName("link");
 
       for(let i=0; i<links.length; i++){
-        let annotation = annotate(links[i], {type: "highlight", color:"darkgrey"})
+        let annotation = annotate(links[i], {type: "highlight", color:"pink"})
         annotation.show();
       }
     }, 2000)    
   }, []);
 
-  const handleActive = ()=> {
-    setActive(!active);
-  }
 
   
   return (
