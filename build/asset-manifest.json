@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.19f93099.css",
+    "main.js": "/static/js/main.e7050b22.js",
+    "static/media/SF-Compact.ttf": "/static/media/SF-Compact.1eac3018429180088f80.ttf",
+    "static/media/timetracker.jpg": "/static/media/timetracker.60383a99b44e8f660d09.jpg",
+    "static/media/f10.jpg": "/static/media/f10.eb5c1b6a7a82964939e0.jpg",
+    "static/media/improvisedchef.png": "/static/media/improvisedchef.85ab3330cdd6d2277727.png",
+    "static/media/techerbot.jpeg": "/static/media/techerbot.919630f6effe64f23166.jpeg",
+    "static/media/ecommerce.jpg": "/static/media/ecommerce.2c65ab6362e3ee66f2e4.jpg",
+    "static/media/react.png": "/static/media/react.971312d447598c47bd87.png",
+    "static/media/vueling-airlines-despues.jpg": "/static/media/vueling-airlines-despues.9d88cf05b42b3c8d5d31.jpg",
+    "static/media/java.png": "/static/media/java.1c2ae6f23b520e06b67d.png",
+    "static/media/nodejs.png": "/static/media/nodejs.92ec2e6fc28f02098f00.png",
+    "static/media/sql.png": "/static/media/sql.47d19b41aa6e338fd423.png",
+    "static/media/css.png": "/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/js.png": "/static/media/js.ee821069274ea4ac42ff.png",
+    "index.html": "/index.html",
+    "main.19f93099.css.map": "/static/css/main.19f93099.css.map",
+    "main.e7050b22.js.map": "/static/js/main.e7050b22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19f93099.css",
+    "static/js/main.e7050b22.js"
+  ]
+}
