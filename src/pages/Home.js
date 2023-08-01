@@ -49,7 +49,7 @@ export default function Home() {
 
       setTimeout(()=>{
         const highlight = document.querySelector(".circle");
-        const h_annotation = annotate(highlight, {type:"highlight", color:"pink"});
+        const h_annotation = annotate(highlight, {type:"underline", color:"pink"});
         h_annotation.show();
       }, 8000)
     }
