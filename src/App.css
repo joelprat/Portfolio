@@ -16,7 +16,7 @@ html{
 .app{
     width: 100vw;
     height: fit-content;
-    background-image: url("./assets/f10.jpg");
+    background-image: url("./assets/background.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
