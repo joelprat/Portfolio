@@ -5,11 +5,12 @@ import "./Home.css";
 
 export default function Home() {
 
-    const initialDate = new Date(2022, 6, 7);
+    
     const [difDate, setDifDate] = useState();
   
     useEffect(() => {
       annotations();
+      const initialDate = new Date(2022, 6, 7);
       const intervalId = setInterval(() => {
         const currentDate = new Date();
         const milsecDif = currentDate - initialDate;
@@ -27,9 +28,6 @@ export default function Home() {
       setTimeout(() => {
         console.log("Loading component");
       },2000);
-
-      
-      
 
       setTimeout(()=>{
         const highlight1 = document.querySelector(".highlight1");

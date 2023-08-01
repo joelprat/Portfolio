@@ -60,4 +60,16 @@ i{
     .title{
         text-shadow: 0px 0px 25px silver;
     }
+
+    .app{
+        width: 100vw;
+        height: fit-content;
+        background-image: url("./assets/f10.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+
+        font-family: 'SF';
+        z-index: 1;
+    }
 }
