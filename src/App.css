@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'SF';
+    src: url("./assets/SF-Compact.ttf");
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.app{
+    width: 100vw;
+    height: fit-content;
+    background-image: url("./assets/f10.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+    font-family: 'SF';
+    z-index: 1;
+
+}
+
+.black-effect{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+}   
+
+
+.title{
+    font-size: 45px;
+    font-style: normal;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 25px black;
+    letter-spacing: -1px;
+    color: white;
+}
+
+.space{
+    width: 100vw;
+    height: 10vh;
+}
+
+#home{
+    width: 0%;
+    height: 0%;
+}
+
+i{
+    font-style: normal;
+}
