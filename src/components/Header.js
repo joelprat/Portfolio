@@ -11,7 +11,7 @@ export default function Header() {
       const links = document.getElementsByClassName("link");
 
       for(let i=0; i<links.length; i++){
-        let annotation = annotate(links[i], {type: "highlight", color:"pink"})
+        let annotation = annotate(links[i], {type: "highlight", color:"lightgrey"})
         annotation.show();
       }
     }, 2000)    

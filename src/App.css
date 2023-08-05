@@ -16,7 +16,7 @@ html{
 .app{
     width: 100vw;
     height: fit-content;
-    background-image: url("./assets/background.jpg");
+    background-image: url("./assets/f10.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -27,7 +27,7 @@ html{
 }
 
 .black-effect{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.15);
     height: 100%;
     width: 100%;
 }   
@@ -65,7 +65,7 @@ i{
     .app{
         width: 100vw;
         height: fit-content;
-        background-image: url("./assets/background.jpg");
+        background-image: url("./assets/f10-r.jpg");
         background-repeat: no-repeat;
         background-size:cover;
         background-attachment: fixed;
