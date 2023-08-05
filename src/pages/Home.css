@@ -55,7 +55,7 @@
 
 
 .home-info i.years{
-    background: linear-gradient(to right, white, silver, transparent);
+    background: linear-gradient(to right, white, transparent);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 
