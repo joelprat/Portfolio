@@ -66,8 +66,8 @@ i{
         height: fit-content;
         background-image: url("./assets/f10-r.jpg") !important;
         background-repeat: no-repeat;
-        background-size:auto;
-        background-attachment: fixed;
+        background-size:auto cover;
+        background-attachment: auto fit-content;
 
         font-family: 'SF';
         z-index: 2;
