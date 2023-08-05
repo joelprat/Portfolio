@@ -67,7 +67,7 @@ i{
         background-image: url("./assets/f10-r.jpg") !important;
         background-repeat: no-repeat;
         background-size:auto cover;
-        background-attachment: auto fit-content;
+        background-attachment: 100vw;
 
         font-family: 'SF';
         z-index: 2;
