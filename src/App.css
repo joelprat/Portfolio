@@ -13,16 +13,37 @@ html{
     overflow-x: hidden;
 }
 
+body{
+    background: url("./assets/f10.jpg") no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body:after{
+    content:"";
+    position:fixed; /* stretch a fixed position to the whole screen */
+    top:0;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    background: url("./assets/f10.jpg") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .app{
     width: 100vw;
     height: fit-content;
-    background-image: url("./assets/f10.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
 
     font-family: 'SF';
     z-index: 1;
+
+    background-color: transparent;
 
 }
 
@@ -61,15 +82,8 @@ i{
         text-shadow: 0px 0px 25px silver;
         font-family: 'SF';
     }
-    .app{
-        width: 100vw;
-        height: fit-content;
-        background-image: url("./assets/f10-r.jpg") !important;
-        background-repeat: no-repeat;
-        background-size:auto cover;
-        background-attachment: 100vw;
-
-        font-family: 'SF';
-        z-index: 2;
+    
+    body{
+        background-image: url("./assets/f10-r.jpg");
     }
 }
