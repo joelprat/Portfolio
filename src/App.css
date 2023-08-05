@@ -61,10 +61,10 @@ i{
         text-shadow: 0px 0px 25px silver;
         font-family: 'SF';
     }
-
     .app{
         width: 100vw;
         height: fit-content;
+        background-image: none;
         background-image: url("./assets/f10-r.jpg") !important;
         background-repeat: no-repeat;
         background-size:cover;
