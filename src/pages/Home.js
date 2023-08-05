@@ -60,7 +60,7 @@ export default function Home() {
             <div className='home-text'>
                 <h1 className='title'>SOFTWARE ENGINEER</h1>
                 <p>
-                    Hi, I'm Joel, a junior <i className='highlight1'>software</i><i className='highlight2'> engineer</i> who loves the world of computing. I have studied the degree of computer engineering at the <a href='https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/enginyeria-informatica-1216708251447.html?param1=1263367146646' target='_blank' rel="noreferrer">UAB</a>, with a mention in software engineering.
+                    Hi, I'm Joel, a junior <i className='highlight1'>software </i><i className='highlight2'> engineer</i> who loves the world of computing. I have studied the degree of computer engineering at the <a href='https://www.uab.cat/web/estudiar/llistat-de-graus/informacio-general/enginyeria-informatica-1216708251447.html?param1=1263367146646' target='_blank' rel="noreferrer">UAB</a>, with a mention in software engineering.
                 </p>
 
                 <div className='home-info'>

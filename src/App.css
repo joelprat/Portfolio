@@ -65,7 +65,7 @@ i{
     .app{
         width: 100vw;
         height: fit-content;
-        background-image: url("./assets/f10-r.jpg");
+        background-image: url("./assets/f10-r.jpg") !important;
         background-repeat: no-repeat;
         background-size:cover;
         background-attachment: fixed;
