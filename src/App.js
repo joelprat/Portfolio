@@ -7,6 +7,8 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Tech from "./pages/Tech";
 
+import { Analytics } from "@vercel/analytics/react";
+
 function App() {
   return (
     <div className="app">
@@ -21,6 +23,7 @@ function App() {
         <div className="space" id="contact"></div>
         <Contact />
       </div>
+      <Analytics />
     </div>
   );
 }
