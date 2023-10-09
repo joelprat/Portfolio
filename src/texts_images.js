@@ -3,6 +3,7 @@ import i1 from './assets/techerbot.jpeg';
 import i2 from './assets/timetracker.jpg';
 import i3 from './assets/vueling-airlines-despues.jpg'
 import i4 from './assets/ecommerce.jpg'
+import i5 from "./assets/opticasantpedor.png";
 
 import js from './assets/js.png'
 import nodejs from './assets/nodejs.png'
@@ -14,6 +15,13 @@ import react from './assets/react.png'
 import git from './assets/git.png'
 
 const texts = [
+    {
+        title: "Optica Santpedor",
+        description: "Simple frontend website for a local buisness. Made with ReactJS.",
+        url: "https://opticasantpedor.com",
+        github: "",
+        img: i5
+    },
     {
         title: 'Improvised Chef',
         description: 'Improvised Chef is a web project made with other 7 UAB students. It consists of a page that provides you with recipes according to the ingredients you have. It is made with ReactJS, NodeJS and stored on a server at the university. The database is from Firebase.',
