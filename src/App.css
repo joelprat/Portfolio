@@ -1,90 +1,88 @@
 @font-face {
-    font-family: 'SF';
-    src: url("./assets/SF-Compact.ttf");
+  font-family: "SF";
+  src: url("./assets/Poppins-Regular.ttf");
 }
 
-*{
-    margin:0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-html{
-    scroll-behavior: smooth;
-    overflow-x: hidden;
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
-body{
-    background: url("./assets/f10.jpg") no-repeat fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+body {
+  background: url("./assets/f10.jpg") no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-body:after{
-    content:"";
-    position:fixed; /* stretch a fixed position to the whole screen */
-    top:0;
-    height:100vh; /* fix for mobile browser address bar appearing disappearing */
-    left:0;
-    right:0;
-    z-index:-1; /* needed to keep in the background */
-    background: url("./assets/f10.jpg") center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+body:after {
+  content: "";
+  position: fixed; /* stretch a fixed position to the whole screen */
+  top: 0;
+  height: 100vh; /* fix for mobile browser address bar appearing disappearing */
+  left: 0;
+  right: 0;
+  z-index: -1; /* needed to keep in the background */
+  background: url("./assets/f10.jpg") center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.app{
-    width: 100vw;
-    height: fit-content;
+.app {
+  width: 100vw;
+  height: fit-content;
 
-    font-family: 'SF';
-    z-index: 1;
+  font-family: "SF";
+  z-index: 1;
 
-    background-color: transparent;
-
+  background-color: transparent;
 }
 
-.black-effect{
-    background-color: rgba(0, 0, 0, 0.15);
-    height:fit-content;
-    width: 100%;
-    z-index: 0;
-}   
-
-
-.title{
-    font-size: 45px;
-    font-style: normal;
-    text-transform: uppercase;
-    text-shadow: 0px 0px 25px black;
-    letter-spacing: -1px;
-    color: white;
+.black-effect {
+  background-color: rgba(0, 0, 0, 0.15);
+  height: fit-content;
+  width: 100%;
+  z-index: 0;
 }
 
-.space{
-    width: 100vw;
-    height: 10vh;
+.title {
+  font-size: 45px;
+  font-style: normal;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 25px black;
+  letter-spacing: -1px;
+  color: white;
 }
 
-#home{
-    width: 0%;
-    height: 0%;
+.space {
+  width: 100vw;
+  height: 10vh;
 }
 
-i{
-    font-style: normal;
+#home {
+  width: 0%;
+  height: 0%;
 }
 
-@media (max-width:850px){
-    .title{
-        text-shadow: 0px 0px 25px silver;
-        font-family: 'SF';
-    }
-    
-    body{
-        background-image: url("./assets/f10-r.jpg");
-    }
+i {
+  font-style: normal;
+}
+
+@media (max-width: 850px) {
+  .title {
+    text-shadow: 0px 0px 25px silver;
+    font-family: "SF";
+  }
+
+  body {
+    background-image: url("./assets/f10-r.jpg");
+  }
 }
